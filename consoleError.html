@@ -7,7 +7,7 @@
 	<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
 	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 	<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-	<script src="./react-wuziqi.js"></script>
+	<script type="text/babel" src="./react-wuziqi.js"></script>
 </head>
 <body>
 	<div id="errors" style="
@@ -18,7 +18,7 @@
 	  padding: 20px;
 	  white-space: pre-wrap;
 	"></div>
-	<div id="container"></div>
+	<div id="root"></div>
 	<script>
 	window.addEventListener('mousedown', function(e) {
 	  document.body.classList.add('mouse-navigation');
